@@ -1,14 +1,16 @@
-Nexus Business PR Landing Page
+Nexus Business PR — Landing comercial
 
-Archivos:
-- index.html
-- styles.css
-- assets/logo.png
+Sitio estático: index.html, styles.css y assets/logo.png.
+Sin dependencias de compilación ni scripts externos.
 
-Publicación:
-1. Sube todos los archivos al hosting del landing.
-2. Cambia el logo reemplazando /assets/logo.png.
-3. El botón principal conecta con: https://suite.nexustoospr.com
+Acceso principal: https://suite.nexustoolspr.com
+Versión móvil: https://suite.nexustoolspr.com/mobile.html
+Dominio de la landing: business.nexustoolspr.com (CNAME conservado).
 
-Nota:
-Si tu dominio correcto es suite.nexustoolspr.com, cambia el enlace en index.html.
+La vista del dashboard es ilustrativa y muestra datos de ejemplo.
+El contenido refleja los módulos verificados en nexus-business:
+clientes/directorio, cotizaciones, facturación, cobros, servicios,
+seguimientos, reportes y configuración/importación/exportación.
+Los planes y límites se consultan dentro del sistema.
+
+Para revisar localmente: python3 -m http.server 8000
